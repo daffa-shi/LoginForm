@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Hitam"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.daffa.tes1.MainActivity">
+
+    <EditText
+        android:id="@+id/editTextNama1"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:textColor="@color/Abu"
+        android:layout_height="50dp"
+        android:background="@color/BukanHitam"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:hint="Nama Lengkap"
+        android:textColorHint="@color/Abu"
+        />
+
+    <EditText
+        android:id="@+id/editTextUsername1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/Abu"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/BukanHitam"
+        android:hint="Username"
+        android:padding="10dp"
+        android:textColorHint="@color/Abu" />
+
+    <EditText
+        android:id="@+id/editTextPassword1"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:textColor="@color/Abu"
+        android:background="@color/BukanHitam"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/Abu"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:background="@color/Pink"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:text="REGISTER"
+        android:textColor="@color/Putih"
+        />
+
+</LinearLayout>
